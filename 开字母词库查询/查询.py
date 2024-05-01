@@ -2,6 +2,10 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 
+# Issues
+# 还是无法正确匹配空格：
+# 例如查询`***********`会出现`BATTLE NO.1`
+
 def wildcard_match(pattern, text):
     m, n = len(pattern), len(text)
     dp = [[False] * (n + 1) for _ in range(m + 1)]
