@@ -5,6 +5,7 @@ from tkinter import filedialog
 # Issues
 # 还是无法正确匹配空格：
 # 例如查询`***********`会出现`BATTLE NO.1`
+# 反之使用`B***** ****`则正常输出`BATTLE NO.1`
 
 def wildcard_match(pattern, text):
     m, n = len(pattern), len(text)
