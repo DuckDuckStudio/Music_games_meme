@@ -21,12 +21,12 @@ def wildcard_match(pattern, text):
     return dp[m][n]
 
 def load_phrases_from_files(file_paths):
-    phrases = []
+    phrases = set()  # 使用集合存储词条，确保不会重复
     for file_path in file_paths:
         with open(file_path, 'r', encoding='utf-8') as file:
             for line in file:
                 phrase = line.strip()
-                phrases.append(phrase)
+                phrases.add(phrase)  # 添加到集合中
     return phrases
 
 def find_closest_phrases(pattern, phrases):
