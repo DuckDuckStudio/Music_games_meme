@@ -2,7 +2,7 @@
 [tag: 有趣 音游 程序]<br>
 本仓库中放着一些有趣的关于音游的程序，可以自由使用。<br>
 这只是一个不定期维护的小项目。<br>
-LICENSE:MIT<br>
+LICENSE:GPL-2.0 license<br>
 
 ## 关于音游开字母查询器
 源码链接：[https://github.com/DuckDuckStudio/Music_games_meme/tree/main/开字母词库查询/](https://github.com/DuckDuckStudio/Music_games_meme/tree/main/开字母词库查询/)<br>
